@@ -1,4 +1,5 @@
 import "./LoginForm.css";
+import {Link} from "react-router-dom"
 import Logo from "../../components/Logo";
 import show from "../../imagens/icon.png";
 
@@ -25,9 +26,11 @@ function LoginForm() {
           <img className="show" src={show} alt="visible"></img>
         </div>
 
-        <button className="button" type="submit">
+        <Link to="/usuarios"> 
+         <button className="button" type="submit">
           Acessar
         </button>
+        </Link>
       </form>
     </div>
   );
