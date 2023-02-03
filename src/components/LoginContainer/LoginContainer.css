@@ -1,0 +1,27 @@
+
+/* CENTRALIZANDO O LOGIN */
+
+.body-login{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FF6C22;
+
+}
+
+/* CONTAINTER INTEIRO DE LOGIN  */
+
+.container-login{
+    display: flex;
+    position: relative; 
+    
+    width: 857px;
+    height: 512px;
+    
+    background-color: #FFFFFF;
+    border-radius: 4px
+}

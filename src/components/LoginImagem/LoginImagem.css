@@ -1,0 +1,20 @@
+.container-imagens{
+    display: flex;
+}
+
+.img1{
+    position: absolute;
+    right: 49px;
+    bottom: 0;
+   
+    width: 414px;
+    height: 413px;   
+}
+
+.img2{
+    position: absolute;
+    right: 0;
+    
+    width: 389px;
+    height: 512px; 
+}

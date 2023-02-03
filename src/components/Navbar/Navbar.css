@@ -1,0 +1,51 @@
+li{
+    list-style: none;
+    
+    display: flex;
+    align-items: center;
+    
+    width: 211px;
+    height: 50px;
+    
+    padding: 10px;
+    border-radius: 5px;
+    
+    background-color: #2EAFB2;
+    color: white;
+    
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.container-navbar{
+    width: 260px;
+    
+    background-color: #FFFFFF;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    
+    margin-right: 12px
+}
+
+/* APENAS PARA DEMONSTRAR O CAMPO ESCOLHIDO  */
+li:first-child{
+    margin-right: -13px;
+    
+    background-color: #F3F3F3;
+    color: black;
+    
+    width: 224px;
+    
+    border-radius: 10px 0 0 10px;
+}
+
+li img{
+    height: 17.5px;
+    margin-right: 11.5px;
+}

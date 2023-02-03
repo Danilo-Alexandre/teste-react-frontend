@@ -1,0 +1,66 @@
+
+/* FORMULARIO DENTRO DO LOGIN  */
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+/* TITULO DE BEM VINDO  */
+.title-login{
+  margin: 45px 0 20px 59px;
+  
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 29px;
+  color: rgba(0, 0, 0, 0.44);
+}
+
+.painel-bold{
+    color: #FF6C22;
+}
+
+/* CAMPOS DE EMAIL E SENHA  */
+
+.email, .password{
+    margin: 0px 0 13px 57px;
+    padding: 12px;
+   
+    width: 313px;
+    height: 44px;
+
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 12px;
+}
+
+/* INPUT DE SENHA COM ESCONDE E MOSTRA SENHA */
+.container-password{
+    position: relative;
+}
+
+.show{
+    width: 24px;
+    
+    position: absolute;    
+    top: 10px;
+    right: 10px;
+}
+
+
+.button{
+    margin: 0px 0 0px 58px;
+    width: 151px;
+    height: 40px;
+    
+    border: none;
+    border-radius: 5px;
+    
+    background-color: #2EAFB2;
+    
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
